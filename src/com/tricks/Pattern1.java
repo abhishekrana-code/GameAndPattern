@@ -39,7 +39,11 @@ public class Pattern1 {
     {
         for(int row=0;row<n;row++)
         {
-            for (int s=0;s<n-row;s++)
+//            for (int s=0;s<n-row;s++)
+//            {
+//                System.out.print(" ");
+//            }
+            for (int s=n-row;s>0;s--)
             {
                 System.out.print(" ");
             }
@@ -50,10 +54,10 @@ public class Pattern1 {
                 else
                     System.out.print("  ");
             }
-            for (int s=n-row;s>0;s--)
-            {
-                System.out.print(" ");
-            }
+//            for (int s=n-row;s>0;s--)
+//            {
+//                System.out.print(" ");
+//            }
             System.out.println();
         }
     }
