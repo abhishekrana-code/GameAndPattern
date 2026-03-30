@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Dice_roll {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        Random rn= new Random();
+        Scanner sc = new Scanner(System.in);
+        Random rn = new Random();
         int numOfDice;
         int total=0;
         System.out.println("Enter no. of dice to roll: ");
