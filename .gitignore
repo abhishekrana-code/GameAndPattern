@@ -27,3 +27,8 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+misc.xml
+modules.xml
+vcs.xml
+workspace.xml
